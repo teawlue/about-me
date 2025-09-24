@@ -1,0 +1,96 @@
+/* All site styles live here. No style tags in HTML files. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+  --bg: #eef3f8;
+  --text: #222;
+  --muted: #666;
+  --link: #2457ff;
+  --heading: #1f2a44;
+  --card: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px 20px; /* content won’t stick to the left edge */
+  background: transparent;
+}
+
+header {
+  padding: 12px 0 8px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 8px;
+}
+
+nav a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: var(--link);
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Headings */
+h1, h2 {
+  margin: 10px 0 6px;
+  text-align: center;
+  color: var(--heading);
+}
+h1 { font-size: 2rem; font-weight: 700; }
+h2 { font-size: 1.3rem; font-weight: 600; }
+
+/* Paragraphs */
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 8px 0;
+  text-align: left;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 22px;
+  margin: 6px 0 12px;
+}
+li {
+  margin: 4px 0;
+}
+
+/* Images */
+img {
+  width: 220px;
+  height: auto;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 8px;
+  vertical-align: middle;
+}
+
+/* Footer */
+footer {
+  margin-top: 16px;
+  padding-top: 10px;
+  text-align: center;
+}
+.muted { color: var(--muted); font-size: 0.95rem; }

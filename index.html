@@ -3,58 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <title>About Me</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      background-color: #f0f0f0;
-      font-family: 'Poppins', sans-serif;
-      text-align: center;
-      margin: 0;
-      padding: 0;
-    }
-    h1 {
-      color: #333;
-      font-weight: 700;
-    }
-    h2 {
-      color: #555;
-      font-weight: 600;
-    }
-    p, li, a {
-      font-weight: 400;
-    }
-    img {
-      width: 200px;
-      height: auto;
-      margin: 10px;
-    }
-    ul, ol {
-      display: inline-block;
-      text-align: left;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Wassup! My name is Bagrat</h1>
-  <p><em>In short:</em> I love <strong>coding</strong> and <u>playing basketball</u>.</p>
+  <div class="wrap">
+    <header>
+      <h1>Hello! My name is Bagrat</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">More about me</a>
+      </nav>
+    </header>
 
-  <h2>My Interests</h2>
-  <ul>
-    <li>Counter-Strike 2</li>
-    <li>Basketball</li>
-  </ul>
+    <section>
+      <h2>In short</h2>
+      <p><em>I love</em> <strong>coding</strong> and <u>playing basketball</u>. I’m just starting with HTML, so this site is simple.</p>
+    </section>
 
-  <h2>Photos</h2>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Basketball.png" alt="Basketball ball">
-  <img src="images/me.jpg" alt="My photo">
+    <section>
+      <h2>My Interests</h2>
+      <ul>
+        <li>Counter-Strike 2</li>
+        <li>Basketball</li>
+      </ul>
+    </section>
 
-  <h2>Useful Links</h2>
-  <ol>
-    <li><a href="https://github.com/teawlue">GitHub</a></li>
-    <li><a href="https://t.me/natussugere96">Telegram</a></li>
-  </ol>
+    <section>
+      <h2>Photos</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Basketball.png" alt="Basketball ball">
+      <img src="images/me.jpg" alt="My photo">
+    </section>
 
-  <h2>Contact Me</h2>
-  <p>Email me: <a href="mailto:student2001@gmail.com">student2001@gmail.com</a></p>
+    <section>
+      <h2>Useful Links</h2>
+      <ol>
+        <li><a href="https://github.com/teawlue" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://t.me/natussugere96" target="_blank" rel="noopener">Telegram</a></li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Contact Me</h2>
+      <p>Email me: <a href="mailto:student2001@gmail.com">student2001@gmail.com</a></p>
+    </section>
+
+    <footer>
+      <p class="muted">Made with ❤️. All styles are controlled from <code>style.css</code>.</p>
+    </footer>
+  </div>
 </body>
 </html>
